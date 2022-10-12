@@ -50,4 +50,3 @@ dependencies {
     compileOnly dep.findbugsAnnotations
 }
 
-apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
