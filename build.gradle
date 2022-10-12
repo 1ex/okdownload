@@ -29,15 +29,15 @@ buildscript {
 }
 
 allprojects {
-    apply plugin: 'okcheck'
+    //apply plugin: 'okcheck'
     repositories {
         jcenter()
         google()
     }
 
-    okcheck {
+    /*okcheck {
         destination = buildDir
-    }
+    }*/
 }
 
 task clean(type: Delete) {
